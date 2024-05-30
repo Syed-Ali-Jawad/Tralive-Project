@@ -79,6 +79,10 @@ button {
   max-width: 30%;
   font-weight: bold;
 }
+.intro button:hover {
+  background: linear-gradient(#ffca3d, orange);
+  cursor: pointer;
+}
 hr {
   position: absolute;
   top: 44%;
@@ -113,6 +117,10 @@ h1 {
   width: 23%;
   border-radius: 5px;
   margin: auto 15px;
+}
+.event:hover {
+  scale: 110%;
+  cursor: pointer;
 }
 .details {
   padding: 10px;
@@ -201,6 +209,10 @@ body {
   background-color: #ffca3d;
   color: white;
   border-radius: 5px;
+}
+.about-us-text button:hover {
+  background-color: #09204d;
+  cursor: pointer;
 }
 
 .quote {
@@ -472,6 +484,6 @@ footer img {
     width: 40%;
   }
   .about-us-text {
-    margin-bottom: 10%;
+    margin-bottom: 20%;
   }
 }
